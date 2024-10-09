@@ -1,0 +1,171 @@
+--(1) Ultimate Battlegrounds (UBG):
+--Script has 15 keybinds: E,R,T,Y,U,H,J,L,Z,X,C,N,M,Zero(0),LeftAlt. You can read about them below:
+--Hold E to teleport forward, you can also hold MB2 while holding E to make it 3 times faster.
+--Hold R to fall through floor of map. (You won't die in void)
+--Hold T to hang in the air and release the button to fall back, also hold Space while holding T to go up and up quickly or combine it with E.
+--Press Y to copy your server's ID, hold Y to copy your username.
+--Press U to enable/disable WallHack which allows you to see and walk through some parts. (Configurable)
+--Press H to enable/disable SafeRagdoll that teleports you higher from the ground after you quit ragdoll state.
+--Press J to enable/disable Reach that allows you to hit players and use skills on them further than usual, also greatly combines with C and N.
+--Press K to enable/disable 
+--Press L to enable/disable MultiHack which grants you:
+--> Server-sidely invisible and instant ultimate entrance
+--> No stun, slowdown, combat timer and jump fatigue
+--> No side dash and melee cooldowns (ragdoll cancel has no cd only client-sidely, just like forward and backward dashes)
+--> Faster walking and running, higher jumps
+--> Invisible block that locally hides your block (other players will still see you blocking) and allows you to walk or run with it.
+--> "Imaginary wall" that lets you use wall-combo everywhere you want, if C isn't held.
+--> "AntiCounter" that could save you from Gon's death counter. (The better is ping - the more chances for you to survive)
+--Press Z to enable/disable UltraKnockback which makes your knockback 40 times stronger.
+--Press X to reset even while in combat, last person who hit you will not recieve kill if you kill yourself before they kill or finish you.
+--Hold C to teleport behind closest player and release the button to stop, also hold MB2 while holding C to teleport closer to the back of player and hold Space to teleport above the player. You can also easily use skills on the player while holding Space if you enabled Reach.
+--Press N to enable/disable ChatBubbleSpam or hold N to enable/disable FakePing.
+--Hold M to attempt to move bots a bit higher into the air when you are near them or hit them before you hold M. Press M to temporarily disable collision of invisible parts until you hold M again, bots will not fall down from air.
+--Press Zero(0) to enable fps boost, which removes rocks appearing on the ground after using abilities. (Configurable) (It cannot be disabled unless you rejoin)
+--Hold LeftAlt to legitly simulate tab-glitch to hang in air (your character won't look around serversidely) or press LeftAlt while holding Q to simulate tab-glitch noclip. Notice - it isn't a tab-glitch and it doesn't freeze the game, it's only a simulation.
+--Configurable variables:
+if game.PlaceId==11815767793 then
+getgenv().WallHack=true --Set to "true" if you want to auto-enable WallHack on execution.
+getgenv().FPSBoost=true --Set to "true" if you want to boost fps on execution. (It cannot be disabled unless you rejoin)
+end
+
+--(2) The Strongest Battlegrounds (TSB):
+--Script has 16 keybinds: E,R,T,Y,U,H,J,K,Z,X,C,N,M,LeftControl,MB3,Backquote. You can read about them below:
+--Hold E to teleport forward, also hold MB2 while holding E to make it 3 times faster.
+--Hold R to hang in the air under the map and release to teleport at the same place where you were before.
+--Hold T to hang in the air and release the button to fall back. You can also hold Space while holding T to go up and up fastly or combine with E.
+--Press Y to teleport to some secret places, hold Y to change the place you want to teleport (4).
+--Press U to teleport to Weakest Dummy, if he is on map somewhere.
+--Hold H to teleport right and left like Saitama in anime yk just try it.
+--Press J to enable/disable AutoSafeZone.
+--Press K to enable/disable SkillVision which allows you to see if person currently in Death Counter (red), ultimate on Saitama (green), ultimate skills on Saitama (blue), Death Blow Counter (yellow).
+--Press Z to reset (the person who hit you in the last 10 seconds gets the kill).
+--Press X to execute serverside fake animations GUI or hold to play fall animation.
+--Hold C to teleport behind closest player and release the button to stop.
+--Press N to enable/disable Speedhack that speeds up character and bypasses some sort of character slowdowns.
+--Press M to enable/disable AntiRagdoll that allows you to walk while been ragdolled (sometimes sends u to air so it's a lil buggy).
+--Press LeftControl to teleport to any trash can and teleport back when LeftControl is up.
+--Press MB3 to teleport to spawn.
+--Press Backquote (`) to teleport to the current Crab Boss, if it is on map somewhere.
+
+--(3) Jujutsu Shenanigans (JJS):
+--Script has 6 keybinds: E,T,C,V,N,M. You can read about them below:
+--Hold E to teleport forward.
+--Hold T to hang in the air and release the button to fall back. You can also hold Space while holding T to go up and up fastly or combine with E.
+--Hold C to teleport behind closest player and release the button to stop.
+--Press V to fastly teleport far away.
+--Press N to enable/disable Speedhack that speeds up your character and bypasses some sort of character slowdowns.
+--Press M to enable/disable AntiRagdoll that allows you to walk while been ragdolled (buggy).
+
+--(4) Marvellous Playground:
+--Script has 20 keybinds: Z,X,C,V,B,N,M,G,H,J,K,R,T,Y,U,P,LeftCtrl,Insert,Delete,Home. You can read about them below:
+--Press Z to "grab" selected (or all, read about End keybind below) players to you (deals a bit of damage), hold to select nearest player and hold longer to clear the list of selected players.
+--Press X to use counter remote once per click without cooldown. (Only work for characters with counter)
+--Press C to use block remote once per click without cooldown.
+--Press V to use FF God or TS God once per click. TS God is only usable if you selected TS God mode for keybind B by holding the button.
+--Press B to enable/disable FF God, TS God, InfCounter or InfBlock. Hold to change modes and see their state (TRUE = enabled, FALSE = disabled).
+--(Mode 1 uses Eleven's remote, mode 2 uses Quicksilver's remote, so on those characters there going to be blatant skill spam, not only godmode)
+--Press N to do those things:
+-->Universal mode: (1)
+--> Heal a bit once per click as SCP Guy, Sonic, Homelander.
+--> Fully heal as Dr. Strange.
+--> Use fire arrow when pressed or fake minecart when hold or boat when hold for a bit more time for Steve.
+--> Shoot once or hold to spam while hold as Rambo, Flash or Vigilante.
+--> Use BatonProjectile or hold to use GunShots or hold a bit more to use SkyChange as Moon Knight.
+--> Use CellCounter on nearby players as Miguel O'Hara.
+--> Use fake spider light for Spectacular Spiderman and fake invisible kick for Miles Morales (Spam 2-4 times to become kinda transparent; Your name and health still will be visible)
+--> Enable/disable Invisibility for Joe (Has cutscene; People who have spawned AFTER you used Invisibility will see your name and health, so you need to reactivate Invisibility).
+--> Use Baloon skill or hold to use GroundSmoke particles for Luffy.
+--> Use ForceHold or hold to use Rage on Anakin. (Rage heals a bit, can be used any time)
+--> Use ThrowLightning sound for Quicksilver.
+--> Use Airstrike for Paul.
+--> Use some frost particles and eyes effects for Amazo.
+-->The Cage mode: (2)
+--> Spawn The Cage on any character. If you use cage while playing any other character than Joe, floor of the cage will stay even after cage disappears. You can paint on the floor lol.
+-->Area-damage mode: (3)
+--> Does damage in a small area around you once per click, breaks blocks but can be countered. (Can be used with effects if you select IShowSpeed)
+--> Press to do it once or hold to spam while hold.
+-->GigaRun mode: (4)
+--> Use GigaRun on any character you want, but if you press it while or a few seconds after you use it - anticheat will kick you.
+-->Block placement mode: (5)
+--> Place block beneath you on any character. (Steve remote)
+-->TNT mode: (6)
+--> Spawn TNT in front of you on any character. (Steve remote)
+-->Fire mode: (7)
+--> Spawn fire in front of you on any character. (Steve remote)
+-->Pull mode: (8)
+--> Use Darth Vader's pull to bring players near you on any character.
+-->Ascent mode: (9)
+--> Click once to use Wanda's Torture or hold to use Dr. Strange's Tendrill slam on any character.
+-->Earth spikes mode: (10)
+--> Use Thanos's Earth spikes on any character.
+-->Dustin mode: (11)
+--> Use  D u s t i n  on any character xd.
+-->WebShot mode: (12)
+--> Use Web Shot on any Spiderman character or skin.
+-->WebGrenade mode: (13)
+--> Use fake Web Grenade on any Spiderman character or skin.
+-->Absorb mode: (14)
+--> Use Absorb on Miles Morales.
+-->Backup mode: (15)
+--> Use Miguel O'Hara's Backup on any character.
+-->Blood mode: (16)
+--> Spawn particles and puddle of blood beneath your character. (m e n s t r u a t i o n)
+--Press M to heal you and everyone around you in a medium radius (Doesn't work on players who have iframes including you).
+--Press G to heal once or hold to teleport all healing orbs to you (UNIVERSAL but slower than pressing M on some characters and sometimes it doesn't work for some reason). (Uses Rambo remote to heal so there will be sound of healing if you play as Rambo)
+--Press H to enable/disable AutoHeal. (Works only when you get hit)
+--Press J to enable/disable NoStunCD. (You can use skills and slowly walk while stunned)
+--Press K to enable/disable NoSlowdown. (You can walk with common speed or even sprint while stunned (togglable below))
+--Press R to hit nearest player once.
+--Press T to hit nearest player once (with knockback), hold to kick person to air in the way he looks or hold longer to enable/disable Annoy which automatically kicks selected (by holding Z) people to air or kicks every player to air (if EndMode 2 is selected by pressing End).
+--Press Y to teleport behind nearest person or hold to teleport with Pibby remote which doesn't deal damage but break shields and activate counters. (But if you play on Pibby - it will do damage)
+--Press U to teleport to selected area or hold U to select from 3 areas - spawn, character selection map and spawnpoints for players who didn't choose character yet.
+--Press P to remove your character's animations once or hold to enable/disable AutoRemoveAnimations.
+--Press LeftCtrl to switch between modes of M or hold to reset mode to Universal.
+--Press Insert to select a character or hold to select a skin for this character. Only if you know how they named in code btw...
+--Press Delete to remove most kill parts from the map. Everytime the map changes you need to press Delete again.
+--Press Home to remove all cooldowns from the game and greatly accelerate all skills and moves durations. Also it can't be reverted back once applied so you need to rejoin the server to disable it. Buggy ahh function.
+--Press End to change modes of P or hold to enable/disable Kill All.
+--Press PageUp to enable/disable ServerCrasher.
+--Other functions:
+-->Removes screamers. (Even the admins' jumpscare command /js {nickname})
+-->Removes some unnecessary camera effects (toggleable) and annoying effects (not togglable cause it's necessary for some functions).
+if game.PlaceId==8657766101 then
+--Configurable variables:
+getgenv().AlwaysRunWithNoSlowdown=true --For keybind H.
+getgenv().InvisibleCounterForSpiders=true --For keybinds X and B with mode InfCounter.
+getgenv().SelectedPlayers={} --For keybind P, if you want your friend(s) to be already selected at the moment of execution. If P doesn't work - you made a mistake in nickname. It should look like this (use real nicknames, not display names; you can't add yourself): {'PlayerName1','PlayerName2','etc.'}
+--For keybind Delete:
+getgenv().NoLandmineInteract=true
+getgenv().NoLaunchPadInteract=false
+getgenv().EnableMapColoring=true
+getgenv().Color=Color3.new(0,0,0) --Put any 3 numbers from 0 to 1 for each from RGB. You can use tenth and hundrenth part of numbers, for example "0.2".
+getgenv().RGB=false --Set to true for rainbow and sometimes buggy color changing in real time. Can be turned on or off at any time by executing this loader again.
+--For keybind Insert:
+getgenv().SelectCharacter='Amazo' --Secret characters: Amazo, OldMiles, MoonKnight with 'Skin1' and 'Skin2'.
+--The only paid character skin that is usable without gamepass: Wanda with 'Skin1'.
+--Paid characters: Speed, Thanos, Wanda, GigaChad. (Cannot be used without gamepass owned because the check is serverside and probably unbypassable)
+getgenv().SelectCharacterSkin='Skin1' --Skin1, Skin2, OldSkin etc. Will only be used if INSERT key been hold for a while.
+getgenv().RemoveUglyEffects=true --Set this to false if you like eating shit i dunno.
+end
+
+--(5) Horrific Housing:
+--Script has 7 keybinds: R,T,X,C,B,N,M and some other features. You can read about them below:
+--Removes most if not all kill parts inside the obby.
+--Free "GhasterBlaster" badge and 2 other limited things.
+--Removes "Doble Vote" gamepass AD when you vote. Also your vote now will be yellow.
+--Removes some CameraShake and stun effects.
+--Press R to enable/disable SafeZone to hang in the air far away from map.
+--Press T to enable/disable FastSwing which swings with mostly all weapons rapidly and automatically if you have them equiped.
+--Press Z to hatch first 100 eggs from inventory.
+--Press X to claim obby reward by teleporting to the end of the obby.
+--Press C to enable/disable HazardsRemover remove gas, lava, electricity, flood, acid floor, spinner's kill part, automatically escape from portal or UFO.
+--Press B to enable/disable InfiniteHeal (not a godmode, you can be easily one-shotted by some stuff).
+--Press N to enable/disable OPAutoFarm which autofarms every furniture, egg, cosmetics and even tokens. (If you have less than 10 tokens you should press V or earn them by yourself)
+if game.PlaceId==263761432 then
+--Configurable values:
+getgenv().RemoveObbyKillParts=true
+getgenv().FreeStuff=true
+getgenv().RemoveGamepassAD=true
+getgenv().RemoveUglyEffects=true
+end
